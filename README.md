@@ -29,4 +29,4 @@
 
 ## Лицензия 
 
-Этот проект лицензирован под [MIT license](https://github.com/zhivem/LoaderPenguin/blob/master/LICENSE.txt)
+Этот проект лицензирован под [MIT license](https://raw.githubusercontent.com/zhivem/LoaderPenguin/refs/heads/master/LICENSE.txt)
