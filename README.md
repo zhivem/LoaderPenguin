@@ -1,6 +1,6 @@
 # LoaderPenguin
 
-<img src="https://github.com/zhivem/Loader-for-DPI-Penguin/blob/main/update_reset.ico" width=5% height=5%>
+<img src="https://github.com/zhivem/LoaderPenguin/blob/master/update_reset.ico" width=5% height=5%>
 
 ## Основной репозиторий
 > [!IMPORTANT]
@@ -9,7 +9,7 @@
 ## Loader
 Данная утилита предназначена для обновления или переустановки приложения `DPI Penguin`. Программа запускает процесс обновления, загружая новые версии программы с облачного хранилища (в данном случае — Яндекс.Диск), извлекает обновление из ZIP-архива и перезапускает основное приложение.
 
-![image](https://github.com/user-attachments/assets/990823de-6801-48e1-8d34-845c7e48d4ac)
+![image](https://github.com/user-attachments/assets/ff6639da-ba11-44d5-8fb8-a25fc8daece1)
 
 ## Важно
 > [!IMPORTANT]
