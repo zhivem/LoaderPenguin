@@ -156,7 +156,7 @@ namespace LoaderPenguin
                         int progress = (int)(totalRead * 100 / totalBytes);
                         Dispatcher.Invoke(() => progressBar.Value = progress);
                     }
-                } // Файл закрывается автоматически
+                }
             }
             else
             {
@@ -216,7 +216,7 @@ namespace LoaderPenguin
                 {
                     using (FileStream fs = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.None))
                     {
-                        return; // Файл доступен
+                        return;
                     }
                 }
                 catch (IOException)
