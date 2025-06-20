@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 using System.IO;
 using System.IO.Compression;
@@ -20,28 +20,8 @@ namespace LoaderPenguin
 
         public MainWindow()
         {
-            // Проверка и перезапуск с правами администратора можно убрать, если используется манифест
-            if (!IsRunningAsAdmin())
-            {
-                var startInfo = new ProcessStartInfo
-                {
-                    FileName = System.Reflection.Assembly.GetExecutingAssembly().Location,
-                    Verb = "runas"
-                };
-                Process.Start(startInfo);
-                Application.Current.Shutdown();
-                return;
-            }
-
             InitializeComponent();
             StartUpdateProcess();
-        }
-
-        private bool IsRunningAsAdmin()
-        {
-            var identity = System.Security.Principal.WindowsIdentity.GetCurrent();
-            var principal = new System.Security.Principal.WindowsPrincipal(identity);
-            return principal.IsInRole(System.Security.Principal.WindowsBuiltInRole.Administrator);
         }
 
         private async void StartUpdateProcess()
